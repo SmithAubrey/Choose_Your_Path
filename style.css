@@ -34,7 +34,7 @@ div {
     color: black;
     border-radius: 12px;
     width: 350px;
-    height: 550px;
+    height: 650px;
     text-align: center;
     padding: 1rem;
     box-shadow: 0 0 15px white;
@@ -54,7 +54,18 @@ div {
     gap: 5rem;
 }
 
-
+.warriortext {
+  color: #a32017;
+  text-shadow: 1px 1px 3px #a36965;
+}
+.sorcerertext {
+  color: #4d39cc;
+  text-shadow: 1px 1px 3px #8e86c2;
+}
+.guardiantext {
+  color: #268c60;
+  text-shadow: 1px 1px 3px #74a89b;
+}
 
 footer {
     text-align: center;

@@ -37,6 +37,7 @@ div {
     height: 600px;
     text-align: center;
     padding: 1rem;
+    cursor: pointer;
     box-shadow: 0 0 15px white;
     text-size: 0.9rem;
     transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;

@@ -86,6 +86,7 @@ button {
    font-family: "Lugrasimo";
    text-align: center;
     margin-top: 3rem;
+  justify-content: center;
 }
 
 button:hover {

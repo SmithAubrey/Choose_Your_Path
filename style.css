@@ -94,3 +94,10 @@ button:hover {
   background: linear-gradient(#6b0e2d, #ba2f2f);
 }
 
+.swordimg {
+url: "/path2/assetredsword2.png";
+}
+
+.swordimg.hover {
+url: "/path2/assetsword2.png";
+}

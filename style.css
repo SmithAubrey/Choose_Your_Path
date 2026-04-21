@@ -74,7 +74,7 @@ footer {
     font-size: 1rem;
 }
 
-.btn {
+button {
     background: linear-gradient(#ba2f2f, #6b0e2d);
     color: white;
     margin: 2rem;
@@ -82,17 +82,14 @@ footer {
     font-size: 1.2rem;
     border: 2px solid black;
     border-radius: 8px;
-  cursor: pointer;
-  font-family: "Lugrasimo";
+   cursor: pointer;
+   font-family: "Lugrasimo";
+   text-align: center;
+    margin-top: 3rem;
 }
 
-.btn:hover {
+button:hover {
   transform: scale(1.1);
   background: linear-gradient(#6b0e2d, #ba2f2f);
 }
 
-  
-.giveup {
-    text-align: center;
-    margin-top: 3rem;
-}

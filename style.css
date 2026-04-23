@@ -75,7 +75,8 @@ footer {
 }
 
 button {
-    background: linear-gradient(#ba2f2f, #6b0e2d);
+    display: grid;
+  background: linear-gradient(#ba2f2f, #6b0e2d);
     color: white;
     margin: 2rem;
     padding: 1rem 2rem;
@@ -86,7 +87,8 @@ button {
    font-family: "Lugrasimo";
    text-align: center;
     margin-top: 3rem;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 button:hover {

@@ -85,10 +85,14 @@ button {
     cursor: pointer;
     font-family: "Lugrasimo";
     text-align: center;
-    display: block;
-    margin: 3rem auto;
     
 }
+.giveup {
+  text-align: center;
+  margin-top: 3rem;
+
+}
+
 
 button:hover {
   transform: scale(1.1);

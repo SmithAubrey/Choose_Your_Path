@@ -75,23 +75,26 @@ footer {
 }
 
 button {
-    display: grid;
-  background: linear-gradient(#ba2f2f, #6b0e2d);
+    background: linear-gradient(#ba2f2f, #6b0e2d);
     color: white;
     margin: 2rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
     border: 2px solid black;
     border-radius: 8px;
-   cursor: pointer;
-   font-family: "Lugrasimo";
-   text-align: center;
+    cursor: pointer;
+    font-family: "Lugrasimo";
+    text-align: center;
     margin-top: 3rem;
     align-items: center;
-    justify-content: center;
 }
 
 button:hover {
   transform: scale(1.1);
   background: linear-gradient(#6b0e2d, #ba2f2f);
+}
+
+button:active {
+transform: scale(1.03);
+  background: #661d1d;
 }
